@@ -1,0 +1,42 @@
+h1{
+    font-size:90px;
+    
+}
+.flex-container{
+    display:flex;
+    flex-direction:column;
+    flex: 1;
+    
+}
+.gradient{
+    background: linear-gradient(180deg, #03CFF8, #067988, #000000);
+}
+.left{
+    display:flex;
+    margin-left:8rem;
+    
+}
+.container{
+   display:flex;
+}
+
+.right{
+    display:flex;
+    flex-direction:row-reverse;
+    
+    margin-right: 8rem;
+}
+.theme{
+    display:flex;
+    position: absolute;
+    margin-left: 600px;
+    
+}
+.gradient{
+    background: linear-gradient(180deg, #03CFF8, #067988, #000000);
+}
+p{
+    margin: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}

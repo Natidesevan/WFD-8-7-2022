@@ -1,0 +1,10 @@
+/*parent,flex container properties*/
+.container {
+    display: flex;
+    background-color: blanchedalmond;
+    height: 200px;
+    /* align-content:space-evenly;*/
+} /* flex-flow:wrap; */
+flex-wrap:wrap;
+/*align-itmes:flex-start; */
+/* align-content: space-between; */

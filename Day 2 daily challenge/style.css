@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    font-size: 80px;
+    font-family: fantasy;
+}
+div.container1 {
+    background-color: hsl(9, 85%, 49%);
+    padding: 200px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    div.container1 {
+      display: none;
+    }
+  }
+  div.container2 {
+    background-color: #28873e;
+    padding: 200px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    div.container2 {
+      display: none;
+    }
+  }
+  div.container3 {
+    background-color: #1eff00;
+    padding: 200px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    div.example3 {
+      display: none;
+    }
+  }
+  
