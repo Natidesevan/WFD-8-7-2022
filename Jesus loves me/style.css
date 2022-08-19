@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: black;
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px, 20vw;  
+}
+.gradient{
+    background: linear-gradient(180deg, #03CFF8, #067988, #000000);
+}
+svg{
+    position: absolute;
+    top: 0;
+  }
+.container{
+    width: 100%;
+    padding-bottom: 30%;
+    vertical-align: middle;
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+.article{
+    background: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.main-title{
+    transform: translate(0%, 500%);
+}
+.left-title{
+    float: left;
+    color: #0C6D78;
+}
+.left-text{
+    float: left;
+    color: black;
+}
+.right-title{
+    float: right;
+    color: #0C6D78;
+}
+.right-text{
+    float: right;
+    color: black;
+    text-align: right;
+}
+.footer{
+    background: #001D24;
+    border: solid white;
+    min-height: 20vh;
+}
+.copyright{
+    transform: translate(0%, 500%);
+}
